@@ -1,82 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divya-Portfoli0</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Divya-Portfoli0</title>
-  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
-</head>
-
-<body>
-  <header class="page-header">
-    <img src="img/divya-logo.png" alt="logo" class="page-header__item">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <h1>Work</h1>
-    <div class="grid">
-      <!-- grid items -->
-      <div class="grid__item">
-        <h2>HTML and CSS</h2>
-        <p>In this project I am resposible for the frontend. I have created my portfolio.</p>
-        <a href="https://github.com/rayapati9/portfolio-website">see project on GitHUb</a>
+  <body>
+    <header class="page-header">
+      <img src="img/divya-logo.png" alt="logo" class="page-header__item" />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Work</h1>
+      <div class="grid">
+        <!-- grid items -->
+        <!-- Meet App -->
+        <div class="grid__item">
+          <h2>Portfolio website</h2>
+          <p>
+            In this project I am resposible for the frontend. I have created my
+            portfolio.
+          </p>
+          <h3>Technical skills</h3>
+          <p>
+            HTML <br />
+            CSS <br />
+          </p>
+          <a
+            href="https://rayapati9.github.io/portfolio-website/"
+            class="project-list-screenshot"
+          >
+            <img
+              src="img/portfolio-screenshot.png"
+              alt="portfolio-screenshot"
+              width="500"
+              height="500"
+            /><br />
+            See how it works
+          </a>
+          <br />
+          <a href="https://github.com/rayapati9/portfolio-website"
+            >see project on GitHUb</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Pokedex App</h2>
+          <p>
+            This is a basic pokedex app that pulls from the Pokemon API to
+            generate a list of Pokemon.
+          </p>
+          <h3>
+            Technical skills
+          </h3>
+          <p>
+            Javascript<br />
+            API interfacing<br />
+            Bootstrap<br />
+          </p>
+          <a
+            href="https://rayapati9.github.io/pokemonApp/"
+            class="project-list-screenshot"
+          >
+            <img
+              src="img/pokedex-screenshot.png"
+              alt="portfolio-screenshot"
+              width="500"
+              height="500"
+            /><br />
+            See how it works
+          </a>
+          <br />
+          <a href="https://github.com/rayapati9/pokemonApp"
+            >see project on GitHUb</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Meet App</h2>
+          <p>
+            This is a progressive Web App (PWA) that uses Google OAuth2 and
+            Amazon Lambda functions to pull events from a Google Calendar. It is
+            responsive and can function through cached data while offline.
+          </p>
+          <h3>Technical skills</h3>
+          <p>
+            React<br />
+            Recharts for dynamic data visualization<br />
+            Google OAuth2 for login<br />
+            Amazon Lambda functions for hosting<br />
+            Enzyme for code testing
+          </p>
+          <a
+            href="https://rayapati9.github.io/meet-app/"
+            class="project-list__screenshot"
+          >
+            <img
+              src="img/meet-app-screenshot.png"
+              alt="meet-app-screenshot"
+              width="500"
+              height="500"
+            /><br />
+            See how it works</a
+          >
+          <br />
+          <a
+            href="https://github.com/rayapati9/meet-app"
+            class="project-list__screenshot"
+            >See the code on Github</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>NodeJS</h2>
+          <p>I used NodeJS for the firsttime</p>
+          <a href="https://github.com/rayapati9/portfolio-website"
+            >See project on GitHUb</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Native APP</h2>
+          <p>I used Native APP for the firsttime</p>
+          <a href="https://github.com/rayapati9/portfolio-website"
+            >See project on GitHUb</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>GITHUB</h2>
+          <p>I used GitHUb for the firsttime</p>
+          <a href="https://github.com/rayapati9/portfolio-website"
+            >See project on GitHUb</a
+          >
+        </div>
       </div>
-      <div class="grid__item">
-        <h2>JavaScript</h2>
-        <p>I used javascript for the firsttime</p>
-        <a href="https://github.com/rayapati9/portfolio-website">See project on GitHUb</a>
+    </section>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/home"
+          ><img src="img/linkdin.svg" height="20" width="20" alt="linkedin"
+        /></a>
+        <a href="https://twitter.com/login"
+          ><img src="img/twitter1.svg" height="20" width="20" alt="twitter"
+        /></a>
+        <a href="https://github.com/rayapati9/portfolio-website"
+          ><img src="img/github.svg" height="20" width="20" alt="github"
+        /></a>
       </div>
-      <div class="grid__item">
-        <h2>React</h2>
-        <p>I used react for the firsttime</p>
-        <a href="https://github.com/rayapati9/portfolio-website">See project on GitHUb</a>
-      </div>
-      <div class="grid__item">
-        <h2>NodeJS</h2>
-        <p>I used NodeJS for the firsttime</p>
-        <a href="https://github.com/rayapati9/portfolio-website">See project on GitHUb</a>
-      </div>
-      <div class="grid__item">
-        <h2>Native APP</h2>
-        <p>I used Native APP for the firsttime</p>
-        <a href="https://github.com/rayapati9/portfolio-website">See project on GitHUb</a>
-      </div>
-      <div class="grid__item">
-        <h2>GITHUB</h2>
-        <p>I used GitHUb for the firsttime</p>
-        <a href="https://github.com/rayapati9/portfolio-website">See project on GitHUb</a>
-      </div>
-    </div>
-  </section>
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <a href="https://www.linkedin.com/home"><img src="img/linkdin.svg" height="20" width="20" alt="linkedin"></a>
-      <a href="https://twitter.com/login"><img src="img/twitter1.svg" height="20" width="20" alt="twitter"></a>
-      <a href="https://github.com/rayapati9/portfolio-website"><img src="img/github.svg" height="20" width="20" alt="github"></a>
-    </div>
-  </footer>
-  <script src="js/tota11y.min.js"></script>
-</body>
-
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
